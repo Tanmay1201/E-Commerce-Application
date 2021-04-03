@@ -72,12 +72,14 @@ const Login = () => {
           }
     }
 
+    //google credentials are captured here 
+    //copy localStorage code from line 42
     const responseGoogle =(response)=>{
         console.log(response);
         console.log(response.profileObj);
     }
 
-    //redirect to signup component
+    //redirect to signup component after clicking on create new account
     let history = useHistory();
     const redirect = () => {
         history.push('/signup')
