@@ -1,5 +1,6 @@
 .Register {
   background-color: #1a1a1a;
+  text-align: center;
   margin-left: 300px;
   margin-right: 300px;
   margin-top: 50px;
@@ -43,7 +44,7 @@
   color: #a6a6a6;
   padding: 8px;
   position: static;
-  margin-bottom: 10px;
+  margin-bottom: 4px;
 }
 
 input:focus {
@@ -81,6 +82,7 @@ input:focus {
 .buttons {
   display: flex;
   justify-content: center;
+  margin-top: 10px;
 }
 .RegisterButton {
   border: 1px solid #3366ff;
@@ -104,13 +106,24 @@ input:focus {
   color: #a6a6a6;
   cursor: pointer;
 }
-button:hover {
+.RegisterButton:hover {
+  background-color: #f0f5f5;
+  color: #1aff1a;
+  transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+  border: 1px solid #1aff1a;
+}
+.LoginButton:hover {
   background-color: #f0f5f5;
   color: #1aff1a;
   transition: cubic-bezier(0.165, 0.84, 0.44, 1);
   border: 1px solid #1aff1a;
 }
 
+.ErrorMessage {
+  color: #ff1a1a;
+  font-size: 8px;
+  margin-left: 15px;
+}
 @media only screen and (max-width: 768px) {
   .Register {
     background-color: #1a1a1a;
