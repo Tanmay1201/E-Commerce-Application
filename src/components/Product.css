@@ -1,0 +1,59 @@
+.Product {
+  padding: 5px;
+  margin: 2px;
+  margin-top: 4px;
+  width: 23%;
+  height: 300px;
+  cursor: pointer;
+  background-color: white;
+}
+.Product:hover {
+  --box-shadow-color: #c2c2a3;
+  box-shadow: 0px 0px 3px var(--box-shadow-color);
+  transition: 0.3s;
+}
+
+.ProductName {
+  color: #1a1a1a;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  display: flex;
+  font-size: 12px;
+  justify-content: flex-start;
+  margin-left: 2%;
+}
+
+.ProductPrice {
+  color: #1a1a1a;
+  font-size: 12px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 2%;
+  margin-top: 2%;
+}
+
+.ProductRating {
+  color: #1a1a1a;
+  font-size: 12px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 2%;
+  margin-top: 2%;
+  color: #009900;
+}
+.FavoriteIconUnset {
+  color: #ebebe0;
+  position: absolute;
+  margin-left: 20%;
+  margin-top: 1%;
+}
+.FavoriteIconSet {
+  color: red;
+  position: absolute;
+  margin-left: 20%;
+  margin-top: 1%;
+}
